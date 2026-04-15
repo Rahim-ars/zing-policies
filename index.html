@@ -3,54 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zing Child Safety Standards</title>
+    <title>Zing · Child Safety Standards</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
-        h1 { color: #111; }
-        a { color: #0066cc; }
-        .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #fafafa;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1e1e1e;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            padding: 2.2rem 2.5rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02);
+            border: 1px solid #eaeaea;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            color: #0a0a0a;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 1.2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #1a1a1a;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        ul {
+            margin: 0.5rem 0 1.5rem 1.8rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid rgba(0, 102, 204, 0.2);
+        }
+
+        a:hover {
+            color: #004499;
+            border-bottom-color: #004499;
+        }
+
+        .badge {
+            background: #eef2ff;
+            color: #1e3a8a;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.2rem 0.8rem;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .contact-block {
+            background: #f8f9fc;
+            padding: 1.5rem 2rem;
+            border-radius: 18px;
+            margin: 1.5rem 0 1rem 0;
+            border-left: 4px solid #2563eb;
+        }
+
+        .footer {
+            margin-top: 2.8rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.9rem;
+            color: #4b5563;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-links a {
+            margin-left: 1.8rem;
+            border-bottom: none;
+        }
+
+        .footer-links a:first-child {
+            margin-left: 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .footer {
+                flex-direction: column;
+                gap: 0.8rem;
+            }
+            .footer-links a {
+                margin: 0 1rem 0 0;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Zing Child Safety Standards Policy</h1>
-    <p>Zing is committed to maintaining a safe and respectful online environment for all users. We have a <strong>zero-tolerance policy for child sexual abuse and exploitation (CSAE)</strong>. This page outlines our published standards as required by Google Play's Child Safety Standards policy.</p>
+    <div class="container">
+        <span class="badge">Google Play · Child Safety Standards</span>
+        <h1>Zing Child Safety Standards</h1>
+        
+        <p><strong>Zing</strong> is a social platform for sharing short videos, images, and live streams. We have a <strong>zero‑tolerance policy toward child sexual abuse and exploitation (CSAE)</strong>. This page fulfills Google Play’s requirement for published safety standards and explains how we prevent, detect, and address CSAE.</p>
 
-    <h2>1. Our Zero-Tolerance Policy</h2>
-    <p>We strictly prohibit any content or activity that involves the sexual exploitation, abuse, or endangerment of minors. This includes any form of child sexual abuse material (CSAM), grooming, sextortion, or trafficking of minors. Any user found to be engaging in such activities will have their account permanently banned and may be reported to the relevant law enforcement authorities.</p>
+        <h2>1. Zero‑Tolerance for CSAE</h2>
+        <p>We strictly prohibit any content or activity that sexually exploits, abuses, or endangers minors. This includes, but is not limited to:</p>
+        <ul>
+            <li>Child Sexual Abuse Material (CSAM) in any form (images, videos, text, or links).</li>
+            <li>Grooming, sextortion, or trafficking of minors.</li>
+            <li>Content that sexualizes children or promotes inappropriate interactions with minors.</li>
+        </ul>
+        <p>Any user found violating this policy will have their account permanently banned and may be reported to law enforcement, including the National Center for Missing and Exploited Children (NCMEC).</p>
 
-    <h2>2. Reporting CSAE and CSAM</h2>
-    <p>To help us keep the platform safe, we encourage users to report any suspected violations.</p>
-    <ul>
-        <li><strong>In-App Reporting:</strong> You can report any post, profile, or message directly within the Zing app by using the "Report" function, typically found by tapping the three-dot menu on a piece of content.</li>
-        <li><strong>Direct Contact:</strong> For urgent matters related to child safety, you can contact our designated point of contact below.</li>
-    </ul>
+        <h2>2. Reporting CSAE and CSAM</h2>
+        <p>We provide multiple ways to report suspected child safety violations:</p>
+        <ul>
+            <li><strong>In‑App Reporting:</strong> Users can report any post, profile, comment, or direct message by tapping the "…" menu and selecting "Report." Our moderation team reviews every flagged item.</li>
+            <li><strong>Direct Email:</strong> For urgent child safety matters, you can contact our dedicated point of contact below. We aim to acknowledge all such reports within 24 hours.</li>
+        </ul>
 
-    <h2>3. Our Process for Addressing CSAM</h2>
-    <p>We take all reports of potential child exploitation seriously. Upon receiving a report:</p>
-    <ul>
-        <li>Our team will promptly investigate the content.</li>
-        <li>If content is confirmed to be CSAM, we will immediately remove it and permanently ban the responsible account.</li>
-        <li>We will report all instances of apparent CSAM to the National Center for Missing and Exploited Children (NCMEC) or other appropriate legal authorities, as required by law.</li>
-    </ul>
+        <h2>3. How We Handle CSAM Reports</h2>
+        <p>When we receive a report of potential CSAM, we follow this strict process:</p>
+        <ul>
+            <li><strong>Immediate Review:</strong> Trained moderators examine the reported content within hours.</li>
+            <li><strong>Removal & Ban:</strong> If content is confirmed as CSAM, we immediately remove it and permanently suspend the offending account.</li>
+            <li><strong>Reporting to Authorities:</strong> As required by law, we report all apparent CSAM to NCMEC and cooperate fully with law enforcement investigations.</li>
+            <li><strong>Preservation:</strong> We preserve relevant account data and content for legal purposes.</li>
+        </ul>
 
-    <h2>4. Compliance with Child Safety Laws</h2>
-    <p>Zing is dedicated to complying with all applicable child safety and data privacy laws in the jurisdictions where we operate.</p>
+        <h2>4. Compliance with Child Safety Laws</h2>
+        <p>Zing complies with all applicable child protection laws, including the U.S. PROTECT Our Children Act and similar legislation in the jurisdictions where we operate. We regularly review our policies and practices to align with evolving legal standards.</p>
 
-    <h2>5. Child Safety Point of Contact</h2>
-    <p>Our designated point of contact for receiving reports and questions regarding this policy is:</p>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:safety@zingapp.com">safety@zingapp.com</a> <em>(Replace with your actual monitored email)</em></li>
-    </ul>
+        <h2>5. Child Safety Point of Contact</h2>
+        <div class="contact-block">
+            <p style="margin-bottom: 0.5rem;"><strong>Designated Contact for Child Safety Matters</strong></p>
+            <p style="font-size: 1.1rem; margin-bottom: 0;">📧 <a href="mailto:rahimalinda3@gmail.com">rahimalinda3@gmail.com</a></p>
+            <p style="margin-top: 0.8rem; color: #4b5563; font-size: 0.9rem;">This inbox is monitored daily by our safety team. For immediate danger, contact local law enforcement.</p>
+        </div>
 
-    <h2>6. Additional Resources</h2>
-    <p>If you believe a child is in immediate danger, please contact your local law enforcement authorities immediately.</p>
+        <h2>6. Additional Resources</h2>
+        <p>If you believe a child is in immediate danger, please contact your local police or emergency services. For further guidance, visit <a href="https://www.missingkids.org" target="_blank" rel="noopener">NCMEC</a> or the <a href="https://www.technologycoalition.org" target="_blank" rel="noopener">Tech Coalition</a>.</p>
 
-    <div class="footer">
-        <p>
-            <a href="privacy.html">Privacy Policy</a> | 
-            <a href="terms.html">Terms of Service</a>
-        </p>
-        <p>Last updated: [Date]</p>
+        <div class="footer">
+            <div>© 2026 Zing · All rights reserved</div>
+            <div class="footer-links">
+                <a href="https://rahim-ars.github.io/zing-privacy-policy/">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
